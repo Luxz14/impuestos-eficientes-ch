@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-final-ch",
+  "version": "1.0.0",
+  "description": "> Este proyecto fue generado con el objetivo de realizar un website para una empresa que colabora con impuestos y finanzas de clientes.\r - Proyecto Final CoderHouse\r - Curso: Desarrollo Web\r - Comision: 42985",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
