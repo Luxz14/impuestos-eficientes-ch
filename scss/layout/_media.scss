@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+    .container img {
+        overflow-x: hidden;
+    }
+    .main-info {
+        padding: 10px;
+        margin-right: 5px;
+        .none {
+            display: none;
+        }
+        .btn-contact {
+            margin-left: -10px;
+        }
+    }
+    .section-no-responsive {
+        display: none;
+    }
+    .container-about {
+        flex-direction: column;
+        .deal-img img {
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        .about-info {
+            max-width: 250px;
+            margin: 5px;
+            align-items: center;
+            p {
+                max-width: 250px;
+            }
+        }
+    }
+    .container-ser {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .container-stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 8px;
+    }
+    .gallery-tes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .img-p_tes {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+    }
+    .container-img img {
+        display: none;
+    }
+    .container-footer {
+        flex-direction: column;
+        bottom: -200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-div {
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+        'Declaracion Planificacion'
+        'Revision Representacion'
+        ;
+        .div-info:nth-child(1) {
+            grid-area: Declaracion;
+        }
+        .div-info:nth-child(2) {
+            grid-area: Planificacion;
+        }
+        .div-info:nth-child(3) {
+            grid-area: Revision;
+        }
+        .div-info:nth-child(4) {
+            grid-area: Representacion;
+        }
+    }
+    .section-no-responsive {
+        display: none;
+    }
+
+    .container-ser {
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+        'Declaracion Planificacion'
+        'Revision Representacion'
+        ;
+        .card:nth-child(1) {
+            grid-area: Declaracion;
+        }
+        .card:nth-child(2) {
+            grid-area: Planificacion;
+        }
+        .card:nth-child(3) {
+            grid-area: Revision;
+        }
+        .card:nth-child(4) {
+            grid-area: Representacion;
+        }
+    }
+    .gallery-tes {
+        display: grid;
+        gap: 20px;
+        .img-p_tes {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            overflow-x: hidden;
+            img {
+                margin: auto;
+                width: 750px;
+            }
+        }
+    }
+
+    .container-img img {
+        display: none;
+    }
+
+    .container-footer{
+        bottom: -100px;
+    }
+}

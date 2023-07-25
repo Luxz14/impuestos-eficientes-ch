@@ -1,0 +1,48 @@
+.h1-titulo {
+    width: 250px;
+    border-radius: 5px;
+    background-color: #9BA4B5;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.p-subtitulo {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#form-contact {
+    text-align: center;
+    label {
+        display: block;
+        font-weight: 600;
+        margin: 15px;
+        .input-form {
+            padding: 5px;
+            height: 40px;
+            width: 230px;
+        }
+        #mensaje-input {
+            width: 300px;
+            height: 200px;
+        }
+        #button-input {
+            background-color: #27374D;
+            border-radius: 100px 100px 100px 100px;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+
+
+
+
+
+

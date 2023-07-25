@@ -1,0 +1,30 @@
+.container-footer {
+    padding: 1em 0;
+    background-color: #63839c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .footer-link i {
+        font-size: 1.5625rem;
+        margin: 20px 3px 20px 3px;
+        padding: 2px;
+        color: white;
+    }
+}
+
+
+
+

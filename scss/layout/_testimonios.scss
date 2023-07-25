@@ -1,0 +1,46 @@
+.h1-titulo {
+    width: 250px;
+    border-radius: 5px;
+    background-color: #9BA4B5;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.p-subtitulo {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.gallery-tes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .img-p_tes {
+        flex-basis: calc(25% - 10px);
+        margin-bottom: 10px;
+        text-align: center;
+        margin: 5px;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        p {
+            flex-basis: calc(25% - 10px);
+            margin-bottom: 10px;
+            text-align: center;
+            margin: 5px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+
+
+
