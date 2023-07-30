@@ -356,7 +356,7 @@ h3 {
   .gallery-tes .img-p_tes {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
     height: auto;
     padding: 5px;
     box-sizing: border-box;
