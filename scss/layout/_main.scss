@@ -1,11 +1,12 @@
 /* Modifique el height(Para que siempre ocupe todo el largo de la pantalla) y el position del body para que el footer siempre se mantenga abajo de la pantalla y se posicione en base a su padre, el Body(Ver modificacion y position del footer)  */
 
 body {
-    background-color: #f5f9fd;
+    background-color: $background-body;
     position: relative;
     min-height: 100vh;
     padding-bottom: 4em;
 }
+
 .custom-navbar {
     background-color: #63839c;
     color: white;
@@ -14,15 +15,9 @@ body {
         text-decoration: none;
     }
 }
+
 .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    box-sizing: border-box;
+    @include container;
     img {
         width: 640px;
         height: 330px;
@@ -52,11 +47,9 @@ body {
         margin-left: 80px;
     }
 }
+
 .container-div {
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-    justify-content: space-between;
+    @include container-div;
     .div-info {
         background-color: #9DB2BF;
         border-radius: 10px;
@@ -75,6 +68,7 @@ body {
         }
     }
 }
+
 .container-about {
     display: flex;
     align-items: center;
@@ -107,6 +101,7 @@ body {
         
     }
 }
+
 .container-stats {
     display: flex;
     margin-top: 260px;

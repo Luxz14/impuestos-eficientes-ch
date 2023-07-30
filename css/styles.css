@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Georama:wght@100;400;700&display=swap"); /* GoogleFonts */
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@100;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   font-family: "Georama", sans-serif;
 }
 
-
+/* GoogleFonts */
 /* Modifique el height(Para que siempre ocupe todo el largo de la pantalla) y el position del body para que el footer siempre se mantenga abajo de la pantalla y se posicione en base a su padre, el Body(Ver modificacion y position del footer)  */
 body {
   background-color: #f5f9fd;
@@ -137,7 +137,7 @@ body {
   color: #F8F6F4;
 }
 
-.h1-titulo {
+.h1-titulo, .h1-titulo-tes {
   width: 250px;
   border-radius: 5px;
   background-color: #9BA4B5;
@@ -163,17 +163,6 @@ body {
 .container-ser .card {
   margin: 10px;
   padding: 5px;
-}
-
-.h1-titulo {
-  width: 250px;
-  border-radius: 5px;
-  background-color: #9BA4B5;
-  text-align: center;
-  margin: 20px auto;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
 }
 
 .p-subtitulo {
@@ -207,7 +196,7 @@ body {
   margin-bottom: 50px;
 }
 
-.h1-titulo {
+.h1-titulo, .h1-titulo-tes {
   width: 250px;
   border-radius: 5px;
   background-color: #9BA4B5;
@@ -249,7 +238,7 @@ body {
   color: white;
 }
 
-.h1-titulo {
+.h1-titulo, .h1-titulo-tes {
   width: 250px;
   border-radius: 5px;
   background-color: #9BA4B5;
