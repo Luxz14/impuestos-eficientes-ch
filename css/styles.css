@@ -34,6 +34,7 @@ body {
   height: auto;
   padding: 10px;
   box-sizing: border-box;
+  animation: fadeIn 4s;
 }
 .container img {
   width: 640px;
@@ -92,6 +93,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  animation: fadeIn 4s;
 }
 .container-about .deal-img img {
   margin-left: 20px;
@@ -137,6 +139,14 @@ body {
   color: #F8F6F4;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .h1-titulo, .h1-titulo-tes {
   width: 250px;
   border-radius: 5px;
@@ -159,10 +169,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: fadeIn 4s;
 }
 .container-ser .card {
   margin: 10px;
   padding: 5px;
+  cursor: pointer;
+}
+.container-ser .card:hover {
+  transform: scale(1.15);
 }
 
 .p-subtitulo {
