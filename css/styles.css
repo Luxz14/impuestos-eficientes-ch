@@ -21,7 +21,7 @@ body {
   color: white;
 }
 .custom-navbar .nav-link:hover {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 
@@ -174,10 +174,6 @@ body {
 .container-ser .card {
   margin: 10px;
   padding: 5px;
-  cursor: pointer;
-}
-.container-ser .card:hover {
-  transform: scale(1.15);
 }
 
 .p-subtitulo {
