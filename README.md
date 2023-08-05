@@ -1,6 +1,8 @@
 # Proyecto Final CoderHouse
 ## Impuestos Eficientes
 > Este proyecto fue generado con el objetivo de realizar un website para una empresa que colabora con impuestos y finanzas de clientes.
+-Profesor: Maximiliano Cardenas
+-Tutores: Joaquín De La Parra, Yeison Rodriguez y Damian Laterza
 - Proyecto Final CoderHouse
 - Curso: Desarrollo Web
 - Comision: 42985
